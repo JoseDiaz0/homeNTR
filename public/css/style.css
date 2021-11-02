@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;    
+}
+
+:root {
+    --colorRojo: #E80308;
+    --colorBlanco:#E2E2E2;
+    --colorGris:#6666 ;
+    --colorAmarillo: #FDCF11;
+    --colorNegro: #000;  
+}
+
+body{
+    background-color: var(--colorBlanco);
+}
+
+/* HEADER */
+
+
+.header{
+    display: flex;
+    
+}
+
+.header .conteiner-logo{
+    width: 100%;
+    height: 100px;
+    background-color:var(--colorNegro) ;
+}
+
+.header .logo{
+    width: 6rem;
+}
+
+.header .barra-de-busqueda{
+    width: 20px;
+    height: 30px;
+    background-color: var(--colorBlanco);
+}
+
+.container{
+    height: 90%;
+    max-width: 1200px;
+    background: var(--colorRojo);
+    margin: auto;
+}
+
+
+/* SECTION */
+
+.main{
+  display: flex;
+}
+
+.main .ofertas{
+
+  
+}
+
+
+ .footer{
+    display: flex;
+    
+}
+
+.footer .conteiner-footer{
+    width: 100%;
+    height: 100px;
+    background-color:var(--colorNegro) ;
+}
+
+.footer .texto {
+    color: var(--colorBlanco);
+}
